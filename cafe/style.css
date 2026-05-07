@@ -30,3 +30,14 @@ nav {
     display: flex;
     gap: 24px;
 }
+
+/* hero */
+#hero {
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), /* 黒い半透明（文字を読みやすく） */
+    url("https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=1600&h=900&fit=crop&auto=format&q=80"); /* 背景写真 */
+    padding: 140px 24px;
+    background-size: cover;
+    color: var(--card-color);
+    text-align: center;
+}
