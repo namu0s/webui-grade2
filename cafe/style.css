@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+   --main-color:   #78350F; /* メインの色（濃い茶色） */
+  --accent-color: #F59E0B; /* アクセントの色（オレンジ） */
+  --bg-color:     #FFFBEB; /* ページ全体の背景色（クリーム色） */
+  --text-color:   #1F2937; /* 文字色（濃いグレー） */
+  --card-color:   #FFFFFF; /* カードやヘッダーの白 */
+  --muted-color:  #6B7280; /* 説明文や枠線の控えめなグレー */
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+header {
+    background-color: var(--card-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+}
