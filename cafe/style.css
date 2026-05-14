@@ -87,3 +87,28 @@ section h2 {
     text-align: center;
     border-radius: 12px;
 }
+
+/* Menu-item */
+.menu-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+/* Menu */
+.menu-item {
+    flex: 1;
+    min-width: 240px;
+    background-color: var(--card-color);
+    border-radius: 8px;
+    padding: 24px;
+    overflow:hidden;
+}
+
+.menu-item img {
+    height: 180px;
+    display: block;
+    width: calc(100% + 48px);
+    margin: -24px -24px 16px;
+    object-fit: cover;
+}
