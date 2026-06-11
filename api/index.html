@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeBattle Game</title>
+    <style>
+        .battle-arena { display: flex; justify-content: space-around; text-align: center; margin-top: 20px; }
+        .pokemon-card { border: 2px solid #ccc; padding: 15px; border-radius: 10px; width: 45%; }
+        .winner { border-color: gold; background-color: #ffffed; box-shadow: 0 0 10px gold; }
+        #game-status { font-size: 1.5rem; font-weight: bold; text-align: center; margin: 20px; color: #333; }
+    </style>
+</head>
+<body>
+    <header style="text-align: center;">
+        <h1>PokeBattle Arena</h1>
+        <input id="name" placeholder="Enter Pokemon Name">
+        <button id="section1-btn">Battle!</button>
+    </header>
+
+    <div id="game-status">Enter a Pokémon and press Battle!</div>
+
+    <div class="battle-arena">
+        <!-- Player Side -->
+        <div id="player-card" class="pokemon-card">
+            <h2>Your Pokémon</h2>
+            <div id="player-result"></div>
+        </div>
+
+        <!-- Enemy Side -->
+        <div id="enemy-card" class="pokemon-card">
+            <h2>Enemy Pokémon</h2>
+            <div id="enemy-result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
